@@ -24,3 +24,5 @@ require (
 	gopkg.in/jcmturner/rpc.v1 v1.1.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace ./github.com/trinodb/trino-go-client => ./github.com/danielgattiluxor/trino-go-client
